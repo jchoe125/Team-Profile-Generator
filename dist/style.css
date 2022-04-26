@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: rgb(142, 152, 163);
+    --secondary: rgb(43, 43, 43);
+}
+
+#navbar {
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-size: 40px;
+}
+
+.card-header {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.card-body {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
